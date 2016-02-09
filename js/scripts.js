@@ -1,35 +1,21 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var person1Input = $("input#person1").val().toUpperCase();
-    var person2Input = $("input#person2").val().toUpperCase();
-    var animalInput = $("input#animal").val().toUpperCase();
-    var exclamationInput = $("input#exclamation").val();
-    var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
+    var firstnameInput = $("input#firstname").val();
+    var lastnameInput = $("input#lastname").val();
+    var phoneInput = $("input#phone").val();
+    var dayofweekInput = $("select#dayofweek").val();
+    var appttimeInput = $("select#appttime").val();
+    var tellusmoreInput = $("textarea#tellusmore").val();
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+    $(".firstname").text(firstnameInput);
+    $(".lastname").text(lastnameInput);
+    $(".phone").text(phoneInput);
+    $(".dayofweek").text(dayofweekInput);
+    $(".appttime").text(appttimeInput);
+    $(".tellusmore").text(tellusmoreInput);
 
-    $("#story").show();
+    $("#confirmation").show();
 
     event.preventDefault();
   });
 });
-
-//
-// $(document).ready(function() {
-//
-//   $("div#click-one").click(function(event) {
-//     var whatToSay = "Hello!";
-//     alert(whatToSay);
-//   });
-//
-//   $("div#click-two").click(function(event) {
-//     var whatToSay = "ping pong is not fun";
-//     alert(whatToSay);
-//   });
-// });
