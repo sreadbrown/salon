@@ -1,3 +1,25 @@
 #confirmation {
   display: none;
 }
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.dark-background {
+  background-color: black;
+  color: white;
+}
+
+.light-background {
+  background-color: white;
+  color: black;
+}
