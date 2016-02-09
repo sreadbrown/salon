@@ -14,50 +14,52 @@
       </div>
     </div>
     <div class="container">
-      <h1>Let's make an appointment. Please enter your details in the form below</h1>
-      <div id="blanks">
-        <form>
-          <div class="form-group">
-            <label for="firstname">First Name</label>
-            <input id="firstname" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="lastname">Last Name</label>
-            <input id="lastname" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input id="phone" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="dayofweek">Select which day of the week you would like an appointment</label>
-            <select id="dayofweek" class="form-control">
-              <option>Monday</option>
-              <option>Tuesday</option>
-              <option>Wednesday</option>
-              <option>Thursday</option>
-              <option>Friday</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="appttime">Select the time of day you would like an appointment</label>
-            <select id="appttime" class="form-control">
-              <option>12pm</option>
-              <option>1pm</option>
-              <option>2pm</option>
-              <option>3pm</option>
-              <option>4pm</option>
-              <option>5pm</option>
-              <option>6pm</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="tellusmore">Please let us know if there is anything special you would like for you appointment!</label>
-            <textarea id="tellusmore" class="form-control" rows="3"></textarea>
-          </div>
+      <div class="appointmentform">
+        <h1>Let's make an appointment. Please enter your details in the form below</h1>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="firstname">First Name</label>
+              <input id="firstname" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last Name</label>
+              <input id="lastname" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input id="phone" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+              <label for="dayofweek">Select which day of the week you would like an appointment</label>
+              <select id="dayofweek" class="form-control">
+                <option>Monday</option>
+                <option>Tuesday</option>
+                <option>Wednesday</option>
+                <option>Thursday</option>
+                <option>Friday</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="appttime">Select the time of day you would like an appointment</label>
+              <select id="appttime" class="form-control">
+                <option>12pm</option>
+                <option>1pm</option>
+                <option>2pm</option>
+                <option>3pm</option>
+                <option>4pm</option>
+                <option>5pm</option>
+                <option>6pm</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="tellusmore">Please let us know if there is anything special you would like for you appointment!</label>
+              <textarea id="tellusmore" class="form-control" rows="3"></textarea>
+            </div>
 
-          <button type="submit" class="btn">Show me the story!</button>
-        </form>
+            <button type="submit" class="btn">Make an appointment</button>
+          </form>
+        </div>
       </div>
 
       <div id="confirmation">

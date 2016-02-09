@@ -15,6 +15,7 @@ $(document).ready(function() {
     $(".tellusmore").text(tellusmoreInput);
 
     $("#confirmation").show();
+    $(".appointmentform").hide();
 
     event.preventDefault();
   });
